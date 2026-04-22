@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "saa-proteome"
+version = "0.3.0"
+description = "Proteome-wide amino acid composition analysis with focus on sulfur amino acids"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [
+  {name = "Husam J. Omari"}
+]
+
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Topic :: Scientific/Engineering :: Bio-Informatics"
+]
+
+dependencies = [
+  "numpy",
+  "pandas",
+  "biopython",
+  "matplotlib"
+]
+
+
+[project.urls]
+Homepage = "https://github.com/Hussam-Omari/saa-proteome"
+
+
+[tool.setuptools.packages.find]
+where = ["."]

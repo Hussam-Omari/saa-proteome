@@ -1,0 +1,184 @@
+,column,label
+1,A,Alanine
+2,C,Cysteine
+3,D,Aspartic Acid
+4,E,Glutamic Acid
+5,F,Phenylalanine
+6,G,Glycine
+7,H,Histidine
+8,I,Isoleucine
+9,K,Lysine
+10,L,Leucine
+11,M,Methionine
+12,N,Asparagine
+13,P,Proline
+14,Q,Glutamine
+15,R,Arginine
+16,S,Serine
+17,T,Threonine
+18,V,Valine
+19,W,Tryptophan
+20,Y,Tyrosine
+21,aa_A,Alanine
+22,aa_A_count,Alanine (Count)
+23,aa_A_freq,Alanine (Frequency)
+24,aa_A_pct,Alanine (%)
+25,aa_C,Cysteine
+26,aa_C_count,Cysteine (Count)
+27,aa_C_freq,Cysteine (Frequency)
+28,aa_C_pct,Cysteine (%)
+29,aa_D,Aspartic Acid
+30,aa_D_count,Aspartic Acid (Count)
+31,aa_D_freq,Aspartic Acid (Frequency)
+32,aa_D_pct,Aspartic Acid (%)
+33,aa_E,Glutamic Acid
+34,aa_E_count,Glutamic Acid (Count)
+35,aa_E_freq,Glutamic Acid (Frequency)
+36,aa_E_pct,Glutamic Acid (%)
+37,aa_F,Phenylalanine
+38,aa_F_count,Phenylalanine (Count)
+39,aa_F_freq,Phenylalanine (Frequency)
+40,aa_F_pct,Phenylalanine (%)
+41,aa_G,Glycine
+42,aa_G_count,Glycine (Count)
+43,aa_G_freq,Glycine (Frequency)
+44,aa_G_pct,Glycine (%)
+45,aa_H,Histidine
+46,aa_H_count,Histidine (Count)
+47,aa_H_freq,Histidine (Frequency)
+48,aa_H_pct,Histidine (%)
+49,aa_I,Isoleucine
+50,aa_I_count,Isoleucine (Count)
+51,aa_I_freq,Isoleucine (Frequency)
+52,aa_I_pct,Isoleucine (%)
+53,aa_K,Lysine
+54,aa_K_count,Lysine (Count)
+55,aa_K_freq,Lysine (Frequency)
+56,aa_K_pct,Lysine (%)
+57,aa_L,Leucine
+58,aa_L_count,Leucine (Count)
+59,aa_L_freq,Leucine (Frequency)
+60,aa_L_pct,Leucine (%)
+61,aa_M,Methionine
+62,aa_M_count,Methionine (Count)
+63,aa_M_freq,Methionine (Frequency)
+64,aa_M_pct,Methionine (%)
+65,aa_N,Asparagine
+66,aa_N_count,Asparagine (Count)
+67,aa_N_freq,Asparagine (Frequency)
+68,aa_N_pct,Asparagine (%)
+69,aa_P,Proline
+70,aa_P_count,Proline (Count)
+71,aa_P_freq,Proline (Frequency)
+72,aa_P_pct,Proline (%)
+73,aa_Q,Glutamine
+74,aa_Q_count,Glutamine (Count)
+75,aa_Q_freq,Glutamine (Frequency)
+76,aa_Q_pct,Glutamine (%)
+77,aa_R,Arginine
+78,aa_R_count,Arginine (Count)
+79,aa_R_freq,Arginine (Frequency)
+80,aa_R_pct,Arginine (%)
+81,aa_S,Serine
+82,aa_S_count,Serine (Count)
+83,aa_S_freq,Serine (Frequency)
+84,aa_S_pct,Serine (%)
+85,aa_T,Threonine
+86,aa_T_count,Threonine (Count)
+87,aa_T_freq,Threonine (Frequency)
+88,aa_T_pct,Threonine (%)
+89,aa_V,Valine
+90,aa_V_count,Valine (Count)
+91,aa_V_freq,Valine (Frequency)
+92,aa_V_pct,Valine (%)
+93,aa_W,Tryptophan
+94,aa_W_count,Tryptophan (Count)
+95,aa_W_freq,Tryptophan (Frequency)
+96,aa_W_pct,Tryptophan (%)
+97,aa_Y,Tyrosine
+98,aa_Y_count,Tyrosine (Count)
+99,aa_Y_freq,Tyrosine (Frequency)
+100,aa_Y_pct,Tyrosine (%)
+101,aa_count_adjusted,Sequence Length (Adjusted)
+102,aa_count_cleaned,Sequence Length (Cleaned)
+103,aa_count_raw,Sequence Length (Raw)
+104,aa_kind,Amino Acid Category
+105,aa_value_scale,Amino Acid Value Scale
+106,canonical_only,Canonical Amino Acids Only
+107,cys,Cysteine
+108,cys_pct,Cysteine (%)
+109,cys_pct_mean,Mean Cysteine (%)
+110,cys_pct_median,Median Cysteine (%)
+111,cys_pct_q25,Cysteine 25th Percentile (%)
+112,cys_pct_q50,Cysteine 50th Percentile (%)
+113,cys_pct_q90,Cysteine 90th Percentile (%)
+114,cys_pct_q95,Cysteine 95th Percentile (%)
+115,cys_pct_q99,Cysteine 99th Percentile (%)
+116,description,Protein Description
+117,eaa_count,Essential Amino Acid Count
+118,eaa_freq,Essential Amino Acid Frequency
+119,eaa_pct,Essential Amino Acids (%)
+120,eaa_pct_F,Phenylalanine (%)
+121,eaa_pct_H,Histidine (%)
+122,eaa_pct_I,Isoleucine (%)
+123,eaa_pct_K,Lysine (%)
+124,eaa_pct_L,Leucine (%)
+125,eaa_pct_M,"Methionine (Essential, %)"
+126,eaa_pct_T,Threonine (%)
+127,eaa_pct_V,Valine (%)
+128,eaa_pct_W,Tryptophan (%)
+129,eaa_profile,Essential Amino Acid Profile
+130,error_message,Error Message
+131,first_id,First Protein ID
+132,level,Analysis Level
+133,looks_like_fasta,Valid FASTA Format
+134,max_length,Maximum Sequence Length
+135,max_met_per_window,Maximum Methionine per Sliding Window
+136,max_met_per_window_mean,Mean Maximum Methionine per Sliding Window
+137,max_met_per_window_median,Median Maximum Methionine per Sliding Window
+138,max_met_per_window_q50,Maximum Methionine per Sliding Window (50th Percentile)
+139,max_met_per_window_q90,Maximum Methionine per Sliding Window (90th Percentile)
+140,max_met_per_window_q99,Maximum Methionine per Sliding Window (99th Percentile)
+141,mean_length,Mean Sequence Length
+142,median_length,Median Sequence Length
+143,met,Methionine
+144,met_pct,Methionine (%)
+145,met_pct_mean,Mean Methionine (%)
+146,met_pct_median,Median Methionine (%)
+147,met_pct_q25,Methionine 25th Percentile (%)
+148,met_pct_q50,Methionine 50th Percentile (%)
+149,met_pct_q90,Methionine 90th Percentile (%)
+150,met_pct_q95,Methionine 95th Percentile (%)
+151,met_pct_q99,Methionine 99th Percentile (%)
+152,min_length,Minimum Sequence Length
+153,parseable,File Parseable
+154,path,FASTA File Path
+155,protein_id,Protein ID
+156,protein_id_raw,Protein ID (Raw FASTA Token)
+157,proteins,Total Proteins
+158,proteins_dropped_empty,Proteins Dropped (Empty After Processing)
+159,proteins_in_df,Proteins in DataFrame
+160,rank,Rank
+161,rank_metric,Ranking Metric
+162,readable,File Readable
+163,records_found_probe,Records Found (Probe)
+164,remove_start_m,Start-Met Removal Enabled
+165,removed_start_m_pct,Proteins with N-terminal Met Removed (%)
+166,saa,Total Sulfur Amino Acids
+167,saa_pct,Total Sulfur Amino Acids (%)
+168,saa_pct_mean,Mean Total Sulfur Amino Acids (%)
+169,saa_pct_median,Median Total Sulfur Amino Acids (%)
+170,saa_pct_q25,Total Sulfur Amino Acids 25th Percentile (%)
+171,saa_pct_q50,Total Sulfur Amino Acids 50th Percentile (%)
+172,saa_pct_q90,Total Sulfur Amino Acids 90th Percentile (%)
+173,saa_pct_q95,Total Sulfur Amino Acids 95th Percentile (%)
+174,saa_pct_q99,Total Sulfur Amino Acids 99th Percentile (%)
+175,saa_value_scale,Sulfur Amino Acid Value Scale
+176,species,Species
+177,start_m_removed,N-terminal Met Removed
+178,total_aa_adjusted,Total Amino Acids (Adjusted)
+179,total_proteins,Total Proteins
+180,total_proteins_used,Total Proteins Used
+181,value_scale,Value Scale
+182,window_size,Sliding Window Size (Amino Acids)
+183,window_step,Sliding Window Step (Amino Acids)
