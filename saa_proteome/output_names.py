@@ -106,12 +106,29 @@ COLUMN_RENAME_MAP: dict[str, str] = {
     # -----------------------------
     # Sliding Window Metrics
     # -----------------------------
-    "max_met_per_window": "Maximum Methionine per Sliding Window",
-    "max_met_per_window_mean": "Mean Maximum Methionine per Sliding Window",
-    "max_met_per_window_median": "Median Maximum Methionine per Sliding Window",
-    "max_met_per_window_q50": "Maximum Methionine per Sliding Window (50th Percentile)",
-    "max_met_per_window_q90": "Maximum Methionine per Sliding Window (90th Percentile)",
-    "max_met_per_window_q99": "Maximum Methionine per Sliding Window (99th Percentile)",
+    "max_met_per_window": "Maximum Methionine per Sliding Window (%)",
+    "max_cys_per_window": "Maximum Cysteine per Sliding Window (%)",
+    "max_saa_per_window": "Maximum Total Sulfur Amino Acids per Sliding Window (%)",
+
+    "max_met_per_window_mean": "Mean Maximum Methionine per Sliding Window (%)",
+    "max_cys_per_window_mean": "Mean Maximum Cysteine per Sliding Window (%)",
+    "max_saa_per_window_mean": "Mean Maximum Total Sulfur Amino Acids per Sliding Window (%)",
+
+    "max_met_per_window_median": "Median Maximum Methionine per Sliding Window (%)",
+    "max_cys_per_window_median": "Median Maximum Cysteine per Sliding Window (%)",
+    "max_saa_per_window_median": "Median Maximum Total Sulfur Amino Acids per Sliding Window (%)",
+
+    "max_met_per_window_q50": "Maximum Methionine per Sliding Window (50th Percentile, %)",
+    "max_cys_per_window_q50": "Maximum Cysteine per Sliding Window (50th Percentile, %)",
+    "max_saa_per_window_q50": "Maximum Total Sulfur Amino Acids per Sliding Window (50th Percentile, %)",
+
+    "max_met_per_window_q90": "Maximum Methionine per Sliding Window (90th Percentile, %)",
+    "max_cys_per_window_q90": "Maximum Cysteine per Sliding Window (90th Percentile, %)",
+    "max_saa_per_window_q90": "Maximum Total Sulfur Amino Acids per Sliding Window (90th Percentile, %)",
+
+    "max_met_per_window_q99": "Maximum Methionine per Sliding Window (99th Percentile, %)",
+    "max_cys_per_window_q99": "Maximum Cysteine per Sliding Window (99th Percentile, %)",
+    "max_saa_per_window_q99": "Maximum Total Sulfur Amino Acids per Sliding Window (99th Percentile, %)",
 
     # Window parameters (new canonical + legacy aliases)
     "window_size": "Sliding Window Size (Amino Acids)",

@@ -66,6 +66,59 @@ def remove_nterm_m(seq: str, enabled: bool = True) -> Tuple[str, bool]:
     return seq, False
 
 
+def prepare_sequence(
+    seq: str,
+    *,
+    canonical_only: bool = True,
+    remove_start_m: bool = True,
+) -> Tuple[str, str, bool]:
+    """
+    Prepare a protein sequence for amino-acid analysis.
+
+    N-terminal methionine removal is determined from the original
+    normalized sequence before non-canonical residues are filtered.
+
+    Parameters
+    ----------
+    seq : str
+        Raw protein sequence.
+    canonical_only : bool, default True
+        If True, retain only the 20 canonical amino acids.
+    remove_start_m : bool, default True
+        If True, remove methionine only when the original normalized
+        sequence begins with 'M'.
+
+    Returns
+    -------
+    tuple
+        cleaned_sequence, adjusted_sequence, start_m_removed
+    """
+    normalized = str(seq).strip().upper()
+
+    # Clean the complete sequence for the pre-removal length
+    cleaned = clean_sequence(
+        normalized,
+        canonical_only=canonical_only,
+    )
+
+    # Determine N-terminal methionine status before canonical filtering
+    start_m_removed = bool(
+        remove_start_m
+        and normalized.startswith("M")
+    )
+
+    if start_m_removed:
+        adjusted = clean_sequence(
+            normalized[1:],
+            canonical_only=canonical_only,
+        )
+    else:
+        adjusted = cleaned
+
+    return cleaned, adjusted, start_m_removed
+
+
+
 def normalize_protein_id(rec_id: str, mode: str = "auto") -> str:
     """
     Normalize a FASTA record identifier for consistent matching.

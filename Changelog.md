@@ -1,54 +1,63 @@
-\# \*\*Changelog\*\*
-
-
+# Changelog
 
 All notable changes to this project are documented in this file.
 
+## v0.4.0 – 2026-07-22
 
+### Added
 
-\## v0.3.0 – 2026-04-20
+- Added generalized sliding-window analysis for user-defined amino-acid groups.
 
-\### Changed
+- Added maximum localized cysteine percentage per sliding window.
 
-\- Refactored FASTA validation logic to improve structural consistency and parsing robustness
+- Added maximum localized total sulfur amino-acid percentage per sliding window.
 
-\- Improved defensive checks and clarified docstrings
+- Exported `max_group_pct_per_window` through the public package interface.
 
-\- Refined internal consistency across modules
+- Added localized cysteine and total S-AA metrics to protein-level outputs and ranking tables.
 
+### Changed
 
+- Retained `max_residue_pct_per_window` as a backward-compatible wrapper.
 
-\### Fixed
+- Updated the package version from 0.3.0 to 0.4.0.
 
-\- Enforced exclusion of zero-length adjusted sequences in composition functions
+- Extended Figure 3 analytical support to methionine, cysteine, and total S-AA.
 
-\- Removed unused internal variables in summary functions
+---
 
+## v0.3.0 – 2026-04-20
 
+### Changed
 
-\---
+- Refactored FASTA validation logic to improve structural consistency and parsing robustness
 
+- Improved defensive checks and clarified docstrings
 
+- Refined internal consistency across modules
 
-\## v0.2.0 – 2026-03-15
+### Fixed
 
-\### Added
+- Enforced exclusion of zero-length adjusted sequences in composition functions
 
-\- Initial stable implementation of proteome-level sulfur-containing amino acid (SAA) analysis
+- Removed unused internal variables in summary functions
 
-\- Implemented amino acid composition, protein ranking, sliding-window metrics, and QC summary functions
+---
 
+## v0.2.0 – 2026-03-15
 
+### Added
 
-\---
+- Initial stable implementation of proteome-level sulfur-containing amino acid (SAA) analysis
 
+- Implemented amino acid composition, protein ranking, sliding-window metrics, and QC summary functions
 
+---
 
-\## v0.1.0 – 2026-02-10
+## v0.1.0 – 2026-02-10
 
-\### Added
+### Added
 
-\- Initial development version
+- Initial development version
 
-\- Implemented core amino acid metrics and SAA calculations
-
+- Implemented core amino acid metrics and SAA calculations

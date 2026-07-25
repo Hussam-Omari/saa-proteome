@@ -22,7 +22,7 @@ from matplotlib.figure import Figure
 from matplotlib.colors import Colormap
 
 from .io import read_fasta
-from .sequence import clean_sequence, remove_nterm_m, normalize_protein_id
+from .sequence import prepare_sequence, normalize_protein_id
 from .config import CANONICAL_AA_ORDER
 # from .output_names import COLUMN_RENAME_MAP
 
@@ -88,8 +88,11 @@ def aa_heatmap_matrix(
             missing += 1
             continue
 
-        seq = clean_sequence(str(rec.seq), canonical_only=canonical_only)
-        seq, _ = remove_nterm_m(seq, enabled=remove_start_m)
+        _, seq, _ = prepare_sequence(
+            str(rec.seq),
+            canonical_only=canonical_only,
+            remove_start_m=remove_start_m,
+            )
 
         L = len(seq)
         if L == 0:

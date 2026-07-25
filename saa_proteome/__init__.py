@@ -2,13 +2,15 @@
 saa_proteome
 
 A small, reproducible library for proteome-wide amino-acid composition analysis
-with special support for sulfur amino acids (Met, Cys) and local methionine enrichment.
+with special support for sulfur amino acids (Met, Cys) and localized enrichment
+of individual residues and user-defined amino-acid groups.
 
 Core features:
 - FASTA validation and reading
 - Canonical 20-AA sequence cleaning
 - Optional N-terminal methionine removal (noStartM)
-- Per-protein metrics: Met%, Cys%, SAA%, Max Met% per sliding window
+- Per-protein metrics: Met%, Cys%, SAA%, and maximum localized Met%, Cys%, and SAA%
+- Sliding-window enrichment analysis for individual residues and user-defined amino-acid groups
 - Full canonical AA composition tables (counts, frequency, percentage)
 - Essential amino acid (EAA) statistics
 - User-defined amino acid group statistics
@@ -22,12 +24,20 @@ All batch outputs are DataFrames by design.
 
 from .config import CANONICAL_AA_ORDER, CANONICAL_AA_SET, EAA_PROFILES
 from .io import is_fasta, validate_fasta, read_fasta, save_output
-from .sequence import clean_sequence, remove_nterm_m, normalize_protein_id
+
+from .sequence import (
+    clean_sequence,
+    remove_nterm_m,
+    prepare_sequence,
+    normalize_protein_id,
+)
+
 from .metrics import (
     aa_profile,
     group_stats,
     essential_aa_set,
     essential_aa_stats,
+    max_group_pct_per_window,
     max_residue_pct_per_window,
     protein_metrics,
 )
@@ -62,6 +72,7 @@ __all__ = [
     "read_fasta",
     "clean_sequence",
     "remove_nterm_m",
+    "prepare_sequence",
     "normalize_protein_id",
     "aa_profile",
     "group_stats",
@@ -70,6 +81,7 @@ __all__ = [
     "eaa_summary",
     "essential_aa_set",
     "essential_aa_stats",
+    "max_group_pct_per_window",
     "max_residue_pct_per_window",
     "protein_metrics",
     "aa_composition_df",
@@ -86,7 +98,7 @@ __all__ = [
     "plot_aa_heatmap",
     "plot_bar",
     "aa_profile_table",
-    "saa_composition_df"
-]
+    "saa_composition_df",
+    ]
 
-__version__ = "0.3.0"
+__version__ = "0.4.0"

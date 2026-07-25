@@ -152,8 +152,12 @@ def top_n_proteins(
             "cys_pct",
             "saa_pct",
             "max_met_per_window",
+            "max_cys_per_window",
+            "max_saa_per_window",
             "start_m_removed",
         ]
+
+    
 
         if include_aa_freq:
             aa_cols_all = [
