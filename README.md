@@ -49,7 +49,7 @@ Clone the repository and install locally:
 
 ```bash
 git clone https://github.com/Hussam-Omari/saa-proteome.git
-cd saa_proteome
+cd saa-proteome
 pip install -e .
 ```
 
