@@ -1,5 +1,5 @@
 # saa_proteome
-
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21963177.svg)](https://doi.org/10.5281/zenodo.21963177)
 A reproducible Python library for proteome-wide amino acid composition analysis, 
 with dedicated support for sulfur-containing amino acids (methionine and cysteine) 
 and sliding-window enrichment analysis for individual amino acids or 
@@ -9,7 +9,7 @@ user-defined groups of canonical amino acids.
 
 ## Version
 
-Current version: v0.4.0
+Current version: v0.4.1
 
 ---
 
