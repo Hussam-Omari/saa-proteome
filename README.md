@@ -10,6 +10,7 @@ user-defined groups of canonical amino acids.
 ## Version
 
 Current software version: v0.4.0
+
 Latest archival/reproducibility release: v0.4.1
 
 ---
