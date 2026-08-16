@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+
+title: "saa_proteome: A Python workflow for proteome-wide amino-acid composition and distribution analysis"
+
+authors:
+  - family-names: "Omari"
+    given-names: "Husam J."
+    orcid: "https://orcid.org/0009-0002-8082-0289"
+
+version: "0.4.0"
+
+date-released: "2026-07-25"
+
+repository-code: "https://github.com/Hussam-Omari/saa-proteome"
+
+license: "MIT"
+
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.21963177"
+    description: "Zenodo archival and reproducibility release v0.4.1 containing the software and associated supplementary materials."
