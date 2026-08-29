@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "saa-proteome"
-version = "0.4.0"
+version = "0.4.1"
 description = "Proteome-wide amino acid composition analysis with focus on sulfur amino acids"
 readme = "README.md"
 requires-python = ">=3.10"
