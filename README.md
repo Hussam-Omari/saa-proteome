@@ -130,3 +130,17 @@ print(max_met, max_cys, max_saa)
 A group string is interpreted as a set of amino-acid codes. For example,
 `"MC"` counts every methionine or cysteine residue within each window; it
 does not search for an adjacent `MC` sequence motif.
+
+---
+
+## Cite the Software
+
+Omari, H. J. (2026). saa_proteome: A Python workflow for proteome-wide amino-acid composition and distribution analysis (Version 0.4.1) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.21963177
+
+---
+
+## Associated Publication
+
+This software was developed and applied in the following study:
+
+Omari, H. J., & Tadros, M. J. (2026). A computational workflow for proteome-wide analysis of sulfur-containing amino acid distribution in crop proteomes. *Journal of Genetic Engineering and Biotechnology*, 24(4), 100818. https://doi.org/10.1016/j.jgeb.2026.100818
